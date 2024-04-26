@@ -15,9 +15,9 @@ namespace DAL
             if (conn == null)
             {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder["Data Source"] = "MINHLEE\\MLEE";
+                builder["Data Source"] = "MSI\\SQLEXPRESS";
                 builder["Integrated Security"] = true; // Chuyển sang xác thực SQL Server
-                builder["User ID"] = "MINHLEE\\giang"; // Tên người dùng
+                builder["User ID"] = ""; // Tên người dùng
                 builder["Password"] = ""; // Mật khẩu
                 builder["Initial Catalog"] = "CarRental";
                 builder["MultipleActiveResultSets"] = true;
