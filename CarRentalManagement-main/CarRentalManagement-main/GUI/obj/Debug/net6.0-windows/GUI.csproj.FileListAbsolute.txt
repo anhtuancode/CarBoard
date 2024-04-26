@@ -1,0 +1,148 @@
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.csproj.AssemblyReference.cache
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.csproj.GenerateResource.cache
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.AssemblyInfoInputs.cache
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.AssemblyInfo.cs
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\GUI.exe
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\GUI.deps.json
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\GUI.runtimeconfig.json
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\GUI.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\GUI.pdb
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\BLL.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\DAL.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\DTO.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\BLL.pdb
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\DTO.pdb
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\DAL.pdb
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.Login.resources
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.csproj.CopyComplete
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\refint\GUI.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.pdb
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.genruntimeconfig.cache
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\ref\GUI.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.Main.resources
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.ManagerCars.resources
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.ManagerStaffs.resources
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.ManagerUsers.resources
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.Properties.Resources.resources
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.ManageContracts.resources
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\ClosedXML.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\Irony.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\XLParser.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.Setting.resources
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.createContract.resources
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.ViewContract.resources
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\bin\Debug\net6.0-windows\Microsoft.Office.Interop.Word.dll
+C:\Users\Nguyen\OneDrive\Máy tính\CarRentalApp\GUI\obj\Debug\net6.0-windows\GUI.SettingConfirm.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\GUI.exe
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\GUI.deps.json
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\GUI.runtimeconfig.json
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\GUI.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\GUI.pdb
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\ClosedXML.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\Irony.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\itextsharp.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\Microsoft.Office.Interop.Word.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\XLParser.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\BLL.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\DAL.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\DTO.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\BLL.pdb
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\DTO.pdb
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\DAL.pdb
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.csproj.AssemblyReference.cache
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.CreateContract.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.ViewContract.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.Login.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.Main.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.ManageContracts.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.ManagerCars.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.ManagerStaffs.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.ManagerUsers.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.Properties.Resources.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.Setting.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.SettingConfirm.resources
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.csproj.GenerateResource.cache
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.AssemblyInfoInputs.cache
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.AssemblyInfo.cs
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.csproj.CoreCompileInputs.cache
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.csproj.CopyComplete
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\refint\GUI.dll
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.pdb
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.genruntimeconfig.cache
+D:\User Data\Minh Le\Project\C-C++\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\ref\GUI.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\GUI.exe
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\GUI.deps.json
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\GUI.runtimeconfig.json
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\GUI.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\GUI.pdb
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\ClosedXML.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\Irony.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\Microsoft.Office.Interop.Word.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\XLParser.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\BLL.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\DAL.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\DTO.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\BLL.pdb
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\DTO.pdb
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\bin\Debug\net6.0-windows\DAL.pdb
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.CreateContract.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.ViewContract.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.Login.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.Main.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.ManageContracts.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.ManagerCars.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.ManagerStaffs.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.ManagerUsers.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.Properties.Resources.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.Setting.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.SettingConfirm.resources
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.AssemblyInfo.cs
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.sourcelink.json
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.csproj.Up2Date
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\refint\GUI.dll
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.pdb
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\GUI.genruntimeconfig.cache
+C:\Users\Admin\Desktop\CarBoard\CarRentalManagement-main\CarRentalManagement-main\GUI\obj\Debug\net6.0-windows\ref\GUI.dll
