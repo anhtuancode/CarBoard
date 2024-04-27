@@ -38,9 +38,11 @@ namespace GUI
 
         private void nav_staffs_Click(object sender, EventArgs e)
         {
-            ManagerStaffs form = new ManagerStaffs();
             this.Hide();
+            ManagerStaffs form = new ManagerStaffs();
             form.ShowDialog(this);
+            form = null;
+            this.Show();
         }
         private void nav_ManageContracts_Click(object sender, EventArgs e)
         {

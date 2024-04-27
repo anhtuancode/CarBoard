@@ -133,5 +133,8 @@ namespace GUI
             }
             this.curr_id = "";
         }
+        private void btn_back_Click(object sender,EventArgs e){
+            this.Close();
+        }
     }
 }
