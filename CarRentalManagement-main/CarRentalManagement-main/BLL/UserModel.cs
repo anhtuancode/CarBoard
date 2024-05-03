@@ -83,7 +83,7 @@ namespace BLL
 
         public static Respond UpdateUser(SystemUser user)
         {
-            string query = "UPDATE SystemUser set name=@name, gender=@gender, birth=@birth, address=@address, identifier=@identifier, shift=@shift, coefficients_salary=@coefficients_salary " +
+            string query = "UPDATE SystemUser set name=@name, gender=@gender, birth=@birth, address=@address, identifier=@identifier, shift=@shift, coefficients_salary=@coefficients_salary,phone=@phone " +
                 "where user_id=@id";
             using (SqlCommand command = new SqlCommand(query, Connection.GetConnection()))
             {
