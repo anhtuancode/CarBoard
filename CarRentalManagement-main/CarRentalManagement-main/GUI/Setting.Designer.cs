@@ -261,6 +261,7 @@
             this.txt_coefficients_salary.Name = "txt_coefficients_salary";
             this.txt_coefficients_salary.Size = new System.Drawing.Size(243, 27);
             this.txt_coefficients_salary.TabIndex = 66;
+            this.txt_coefficients_salary.KeyPress += new KeyPressEventHandler(this.txt_coefficients_salary_presskey);
             // 
             // txt_birth
             // 
@@ -386,6 +387,8 @@
             this.txt_phone.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.txt_phone.Size = new System.Drawing.Size(234, 27);
             this.txt_phone.TabIndex = 57;
+            this.txt_phone.KeyPress += new KeyPressEventHandler(this.txt_phone_presskey);
+            this.txt_phone.MaxLength = 10;
             // 
             // txt_identity
             // 
@@ -398,6 +401,7 @@
             this.txt_identity.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.txt_identity.Size = new System.Drawing.Size(234, 27);
             this.txt_identity.TabIndex = 58;
+            
             // 
             // panel1
             // 

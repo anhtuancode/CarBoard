@@ -8,6 +8,8 @@ using DTO;
 using DAL;
 using System.Data;
 
+
+
 namespace BLL
 {
     public static class UserModel
@@ -85,28 +87,33 @@ namespace BLL
         {
             string query = "UPDATE SystemUser set name=@name, gender=@gender, birth=@birth, address=@address, identifier=@identifier, shift=@shift, coefficients_salary=@coefficients_salary,phone=@phone " +
                 "where user_id=@id";
-            using (SqlCommand command = new SqlCommand(query, Connection.GetConnection()))
-            {
-                command.Parameters.AddWithValue("@id", user.id);
-                command.Parameters.AddWithValue("@name", user.name);
-                command.Parameters.AddWithValue("@birth", user.birth);
-                command.Parameters.AddWithValue("@gender", user.gender);
-                command.Parameters.AddWithValue("@phone", user.phone);
-                command.Parameters.AddWithValue("@address", user.address);
-                command.Parameters.AddWithValue("@identifier", user.identifier);
-                command.Parameters.AddWithValue("@shift", user.shift);
-                command.Parameters.AddWithValue("@coefficients_salary", user.coefficientsSalary);
-                int rowsAffected = command.ExecuteNonQuery();
-
-                if (rowsAffected > 0)
-                {
-                    return new Respond(true, "", "Change Success!");
+                if(string.IsNullOrWhiteSpace(user.name)||string.IsNullOrWhiteSpace(user.phone)||string.IsNullOrWhiteSpace(user.identifier)||string.IsNullOrWhiteSpace(user.address)){
+                    return new Respond(false, "", "Please fill in all required fields!");
                 }
                 else
                 {
-                    return new Respond(false, "", "Change Failed!");
+                    using (SqlCommand command = new SqlCommand(query, Connection.GetConnection()))
+                    {
+                    command.Parameters.AddWithValue("@id", user.id);
+                    command.Parameters.AddWithValue("@name", user.name);
+                    command.Parameters.AddWithValue("@birth", user.birth);
+                    command.Parameters.AddWithValue("@gender", user.gender);
+                    command.Parameters.AddWithValue("@phone", user.phone);
+                    command.Parameters.AddWithValue("@address", user.address);
+                    command.Parameters.AddWithValue("@identifier", user.identifier);
+                    command.Parameters.AddWithValue("@shift", user.shift);
+                    command.Parameters.AddWithValue("@coefficients_salary", user.coefficientsSalary);
+                    int rowsAffected = command.ExecuteNonQuery();
+                    if (rowsAffected > 0)
+                    {
+                        return new Respond(true, "", "Change Success!");
+                    }
+                    else
+                    {
+                        return new Respond(false, "", "Change Failed!");
+                    }
+                    }
                 }
-            }
         }
         public static Respond getUserById(string id)
         {
