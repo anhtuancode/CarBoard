@@ -147,12 +147,36 @@ namespace GUI
                 }
             }
         }
-
+        private void txt_coefficients_salary_presskey(object sender,KeyPressEventArgs e)
+        {     
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+                (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
+        private void txt_phone_presskey(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
 
         private void btn_save_info_Click(object sender, EventArgs e)
         {
+            if(txt_coefficients_salary.Text == "")
+            {
+                MessageBox.Show("fill in coeffients required fields!");
+            }
+            else
+            {
             SystemUser user = new SystemUser(txt_id.Text, txt_name.Text, txt_birth.Value, cb_gender.Text, 
-                txt_phone.Text, txt_address.Text, txt_identity.Text, cb_shift.Text, double.Parse(txt_coefficients_salary.Text));
+            txt_phone.Text, txt_address.Text, txt_identity.Text, cb_shift.Text, double.Parse(txt_coefficients_salary.Text));
             Respond res = UserModel.UpdateUser(user);
             if(res.getStatus())
             {
@@ -165,6 +189,8 @@ namespace GUI
             {
                 MessageBox.Show(res.getDescription());
             }
+            }
+            
         }
 
         private void btn_exit_Click(object sender, EventArgs e)
@@ -214,5 +240,6 @@ namespace GUI
                 this.Owner.Show();
             }
         }
+       
     }
 }
