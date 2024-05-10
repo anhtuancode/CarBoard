@@ -743,6 +743,7 @@
             this.txt_extra_charge.Name = "txt_extra_charge";
             this.txt_extra_charge.Size = new System.Drawing.Size(430, 27);
             this.txt_extra_charge.TabIndex = 103;
+            this.txt_extra_charge.KeyPress += new KeyPressEventHandler(this.txt_extra_charge_keypress);
             // 
             // label15
             // 

@@ -128,12 +128,19 @@ namespace GUI
 
         private void btn_create_post_contract_Click(object sender, EventArgs e)
         {
-            PostContracts postContracts = new PostContracts("", this.userID, txt_pre_id.Text, "completed", txt_note.Text, double.Parse(txt_extra_charge.Text), cb_post_payment_method.Text);
-
-            Respond res = ContractsModel.CreatePostContract(postContracts);
-            if (res.getStatus())
+            if(string.IsNullOrEmpty(txt_extra_charge.Text)||cb_post_payment_method.SelectedIndex==-1||cb_car_status.SelectedIndex==-1)
             {
-                Car rentingCar = (Car) img_car.Tag;
+                MessageBox.Show("fill in all required fields!");
+            }
+            
+            else
+            {
+                PostContracts postContracts = new PostContracts("", this.userID, txt_pre_id.Text, "completed", txt_note.Text, double.Parse(txt_extra_charge.Text), cb_post_payment_method.Text);
+
+                Respond res = ContractsModel.CreatePostContract(postContracts);
+                if (res.getStatus())
+                {
+                    Car rentingCar = (Car) img_car.Tag;
                 if(CarsModel.UpdateCarStatus(rentingCar.id, cb_car_status.Text).getStatus() &&
                 ContractsModel.UpdateContractStatus(this.contract.contractId, "Completed").getStatus())
                 {
@@ -150,10 +157,11 @@ namespace GUI
                     MessageBox.Show(res.getDescription(), "Error");
                     return;
                 }
-            }
-            else
-            {
-                MessageBox.Show(res.getDescription(), "Error");
+                }
+                else
+                {
+                    MessageBox.Show(res.getDescription(), "Error");
+                }
             }
         }
 
@@ -173,5 +181,18 @@ namespace GUI
         {
             this.Close();
         }
+        private void txt_extra_charge_keypress(object sender,KeyPressEventArgs e)
+        {     
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+                (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
     }
+    
 }
