@@ -49,6 +49,8 @@ namespace GUI
             CreateContract form = new CreateContract(this.userID);
             this.Hide();
             form.ShowDialog(this);
+            ManageContracts_Shown();
+            this.Show();
         }
 
         private void btn_export_Click(object sender, EventArgs e)
@@ -107,9 +109,10 @@ namespace GUI
 
             ViewContract form = new ViewContract(this.userID, selectedRow);
             form.ShowDialog(this);
+            ManageContracts_Shown();
         }
 
-        private void ManageContracts_Shown(object sender, EventArgs e)
+        private void ManageContracts_Shown()
         {
             data_contracts.Rows.Clear();
             loadContract();
