@@ -28,688 +28,663 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btn_exit = new System.Windows.Forms.Button();
-            this.btn_edit = new System.Windows.Forms.Button();
-            this.btn_save_info = new System.Windows.Forms.Button();
-            this.gb_user_info = new System.Windows.Forms.GroupBox();
-            this.txt_id = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.cb_shift = new System.Windows.Forms.ComboBox();
-            this.txt_name = new System.Windows.Forms.TextBox();
-            this.txt_address = new System.Windows.Forms.RichTextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txt_coefficients_salary = new System.Windows.Forms.TextBox();
-            this.txt_birth = new System.Windows.Forms.DateTimePicker();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.cb_gender = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txt_phone = new System.Windows.Forms.TextBox();
-            this.txt_identity = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.gb_account = new System.Windows.Forms.GroupBox();
-            this.show_password = new System.Windows.Forms.CheckBox();
-            this.btn_save_account = new System.Windows.Forms.Button();
-            this.btn_edit_info = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.cb_role = new System.Windows.Forms.ComboBox();
-            this.txt_password = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.txt_user_name = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txt_account_id = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.data_sales = new System.Windows.Forms.DataGridView();
-            this.customer = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.car = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.revenue = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gb_salary = new System.Windows.Forms.GroupBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txt_salary = new System.Windows.Forms.TextBox();
-            this.groupBox2.SuspendLayout();
-            this.gb_user_info.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.gb_account.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.data_sales)).BeginInit();
-            this.gb_salary.SuspendLayout();
-            this.SuspendLayout();
+            groupBox2 = new GroupBox();
+            btn_exit = new Button();
+            btn_edit = new Button();
+            btn_save_info = new Button();
+            gb_user_info = new GroupBox();
+            txt_id = new TextBox();
+            label15 = new Label();
+            cb_shift = new ComboBox();
+            txt_name = new TextBox();
+            txt_address = new RichTextBox();
+            label4 = new Label();
+            txt_coefficients_salary = new TextBox();
+            txt_birth = new DateTimePicker();
+            label11 = new Label();
+            label5 = new Label();
+            cb_gender = new ComboBox();
+            label3 = new Label();
+            label6 = new Label();
+            label10 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            txt_phone = new TextBox();
+            txt_identity = new TextBox();
+            panel1 = new Panel();
+            label1 = new Label();
+            gb_account = new GroupBox();
+            show_password = new CheckBox();
+            btn_save_account = new Button();
+            btn_edit_info = new Button();
+            label13 = new Label();
+            cb_role = new ComboBox();
+            txt_password = new TextBox();
+            label12 = new Label();
+            txt_user_name = new TextBox();
+            label9 = new Label();
+            txt_account_id = new TextBox();
+            label2 = new Label();
+            data_sales = new DataGridView();
+            customer = new DataGridViewTextBoxColumn();
+            car = new DataGridViewTextBoxColumn();
+            revenue = new DataGridViewTextBoxColumn();
+            status = new DataGridViewTextBoxColumn();
+            gb_salary = new GroupBox();
+            label14 = new Label();
+            txt_salary = new TextBox();
+            groupBox2.SuspendLayout();
+            gb_user_info.SuspendLayout();
+            panel1.SuspendLayout();
+            gb_account.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)data_sales).BeginInit();
+            gb_salary.SuspendLayout();
+            SuspendLayout();
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.btn_exit);
-            this.groupBox2.Controls.Add(this.btn_edit);
-            this.groupBox2.Controls.Add(this.btn_save_info);
-            this.groupBox2.Location = new System.Drawing.Point(1145, 104);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox2.Size = new System.Drawing.Size(316, 352);
-            this.groupBox2.TabIndex = 79;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Control";
+            groupBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox2.Controls.Add(btn_exit);
+            groupBox2.Controls.Add(btn_edit);
+            groupBox2.Controls.Add(btn_save_info);
+            groupBox2.Location = new Point(1002, 78);
+            groupBox2.Margin = new Padding(2);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Padding = new Padding(2);
+            groupBox2.Size = new Size(280, 264);
+            groupBox2.TabIndex = 79;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Control";
             // 
             // btn_exit
             // 
-            this.btn_exit.BackColor = System.Drawing.Color.SteelBlue;
-            this.btn_exit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_exit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_exit.Location = new System.Drawing.Point(23, 137);
-            this.btn_exit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(102, 43);
-            this.btn_exit.TabIndex = 74;
-            this.btn_exit.Text = "Exit";
-            this.btn_exit.UseVisualStyleBackColor = false;
-            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
+            btn_exit.BackColor = Color.SteelBlue;
+            btn_exit.Cursor = Cursors.Hand;
+            btn_exit.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_exit.ForeColor = SystemColors.ButtonHighlight;
+            btn_exit.Location = new Point(20, 103);
+            btn_exit.Margin = new Padding(4, 4, 4, 4);
+            btn_exit.Name = "btn_exit";
+            btn_exit.Size = new Size(89, 32);
+            btn_exit.TabIndex = 74;
+            btn_exit.Text = "Exit";
+            btn_exit.UseVisualStyleBackColor = false;
+            btn_exit.Click += btn_exit_Click;
             // 
             // btn_edit
             // 
-            this.btn_edit.BackColor = System.Drawing.Color.SteelBlue;
-            this.btn_edit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_edit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_edit.Location = new System.Drawing.Point(23, 46);
-            this.btn_edit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(102, 43);
-            this.btn_edit.TabIndex = 72;
-            this.btn_edit.Text = "Edit";
-            this.btn_edit.UseVisualStyleBackColor = false;
-            this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
+            btn_edit.BackColor = Color.SteelBlue;
+            btn_edit.Cursor = Cursors.Hand;
+            btn_edit.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_edit.ForeColor = SystemColors.ButtonHighlight;
+            btn_edit.Location = new Point(20, 34);
+            btn_edit.Margin = new Padding(4, 4, 4, 4);
+            btn_edit.Name = "btn_edit";
+            btn_edit.Size = new Size(89, 32);
+            btn_edit.TabIndex = 72;
+            btn_edit.Text = "Edit";
+            btn_edit.UseVisualStyleBackColor = false;
+            btn_edit.Click += btn_edit_Click;
             // 
             // btn_save_info
             // 
-            this.btn_save_info.BackColor = System.Drawing.Color.SteelBlue;
-            this.btn_save_info.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_save_info.Enabled = false;
-            this.btn_save_info.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_save_info.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_save_info.Location = new System.Drawing.Point(23, 90);
-            this.btn_save_info.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btn_save_info.Name = "btn_save_info";
-            this.btn_save_info.Size = new System.Drawing.Size(102, 43);
-            this.btn_save_info.TabIndex = 73;
-            this.btn_save_info.Text = "Save";
-            this.btn_save_info.UseVisualStyleBackColor = false;
-            this.btn_save_info.Click += new System.EventHandler(this.btn_save_info_Click);
+            btn_save_info.BackColor = Color.SteelBlue;
+            btn_save_info.Cursor = Cursors.Hand;
+            btn_save_info.Enabled = false;
+            btn_save_info.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_save_info.ForeColor = SystemColors.ButtonHighlight;
+            btn_save_info.Location = new Point(20, 68);
+            btn_save_info.Margin = new Padding(4, 4, 4, 4);
+            btn_save_info.Name = "btn_save_info";
+            btn_save_info.Size = new Size(89, 32);
+            btn_save_info.TabIndex = 73;
+            btn_save_info.Text = "Save";
+            btn_save_info.UseVisualStyleBackColor = false;
+            btn_save_info.Click += btn_save_info_Click;
             // 
             // gb_user_info
             // 
-            this.gb_user_info.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gb_user_info.Controls.Add(this.txt_id);
-            this.gb_user_info.Controls.Add(this.label15);
-            this.gb_user_info.Controls.Add(this.cb_shift);
-            this.gb_user_info.Controls.Add(this.txt_name);
-            this.gb_user_info.Controls.Add(this.txt_address);
-            this.gb_user_info.Controls.Add(this.label4);
-            this.gb_user_info.Controls.Add(this.txt_coefficients_salary);
-            this.gb_user_info.Controls.Add(this.txt_birth);
-            this.gb_user_info.Controls.Add(this.label11);
-            this.gb_user_info.Controls.Add(this.label5);
-            this.gb_user_info.Controls.Add(this.cb_gender);
-            this.gb_user_info.Controls.Add(this.label3);
-            this.gb_user_info.Controls.Add(this.label6);
-            this.gb_user_info.Controls.Add(this.label10);
-            this.gb_user_info.Controls.Add(this.label7);
-            this.gb_user_info.Controls.Add(this.label8);
-            this.gb_user_info.Controls.Add(this.txt_phone);
-            this.gb_user_info.Controls.Add(this.txt_identity);
-            this.gb_user_info.Location = new System.Drawing.Point(15, 104);
-            this.gb_user_info.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.gb_user_info.Name = "gb_user_info";
-            this.gb_user_info.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.gb_user_info.Size = new System.Drawing.Size(1404, 352);
-            this.gb_user_info.TabIndex = 78;
-            this.gb_user_info.TabStop = false;
-            this.gb_user_info.Text = "User infomations";
+            gb_user_info.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            gb_user_info.Controls.Add(txt_id);
+            gb_user_info.Controls.Add(label15);
+            gb_user_info.Controls.Add(cb_shift);
+            gb_user_info.Controls.Add(txt_name);
+            gb_user_info.Controls.Add(txt_address);
+            gb_user_info.Controls.Add(label4);
+            gb_user_info.Controls.Add(txt_coefficients_salary);
+            gb_user_info.Controls.Add(txt_birth);
+            gb_user_info.Controls.Add(label11);
+            gb_user_info.Controls.Add(label5);
+            gb_user_info.Controls.Add(cb_gender);
+            gb_user_info.Controls.Add(label3);
+            gb_user_info.Controls.Add(label6);
+            gb_user_info.Controls.Add(label10);
+            gb_user_info.Controls.Add(label7);
+            gb_user_info.Controls.Add(label8);
+            gb_user_info.Controls.Add(txt_phone);
+            gb_user_info.Controls.Add(txt_identity);
+            gb_user_info.Location = new Point(13, 78);
+            gb_user_info.Margin = new Padding(2);
+            gb_user_info.Name = "gb_user_info";
+            gb_user_info.Padding = new Padding(2);
+            gb_user_info.Size = new Size(1228, 264);
+            gb_user_info.TabIndex = 78;
+            gb_user_info.TabStop = false;
+            gb_user_info.Text = "User infomations";
             // 
             // txt_id
             // 
-            this.txt_id.Enabled = false;
-            this.txt_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_id.ForeColor = System.Drawing.Color.Black;
-            this.txt_id.Location = new System.Drawing.Point(109, 33);
-            this.txt_id.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_id.Name = "txt_id";
-            this.txt_id.Size = new System.Drawing.Size(960, 27);
-            this.txt_id.TabIndex = 72;
+            txt_id.Enabled = false;
+            txt_id.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_id.ForeColor = Color.Black;
+            txt_id.Location = new Point(95, 25);
+            txt_id.Margin = new Padding(4, 4, 4, 4);
+            txt_id.Name = "txt_id";
+            txt_id.Size = new Size(840, 23);
+            txt_id.TabIndex = 72;
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label15.Location = new System.Drawing.Point(45, 34);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(31, 20);
-            this.label15.TabIndex = 71;
-            this.label15.Text = "ID:";
+            label15.AutoSize = true;
+            label15.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.ForeColor = SystemColors.ActiveCaptionText;
+            label15.Location = new Point(39, 26);
+            label15.Margin = new Padding(4, 0, 4, 0);
+            label15.Name = "label15";
+            label15.Size = new Size(25, 17);
+            label15.TabIndex = 71;
+            label15.Text = "ID:";
             // 
             // cb_shift
             // 
-            this.cb_shift.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cb_shift.Enabled = false;
-            this.cb_shift.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cb_shift.ForeColor = System.Drawing.Color.Black;
-            this.cb_shift.FormattingEnabled = true;
-            this.cb_shift.Items.AddRange(new object[] {
-            "Morning",
-            "Afternoon",
-            "Night"});
-            this.cb_shift.Location = new System.Drawing.Point(430, 176);
-            this.cb_shift.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.cb_shift.Name = "cb_shift";
-            this.cb_shift.Size = new System.Drawing.Size(234, 28);
-            this.cb_shift.TabIndex = 70;
+            cb_shift.DropDownStyle = ComboBoxStyle.DropDownList;
+            cb_shift.Enabled = false;
+            cb_shift.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            cb_shift.ForeColor = Color.Black;
+            cb_shift.FormattingEnabled = true;
+            cb_shift.Items.AddRange(new object[] { "Morning", "Afternoon", "Night" });
+            cb_shift.Location = new Point(376, 132);
+            cb_shift.Margin = new Padding(2);
+            cb_shift.Name = "cb_shift";
+            cb_shift.Size = new Size(205, 24);
+            cb_shift.TabIndex = 70;
             // 
             // txt_name
             // 
-            this.txt_name.Enabled = false;
-            this.txt_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_name.ForeColor = System.Drawing.Color.Black;
-            this.txt_name.Location = new System.Drawing.Point(112, 78);
-            this.txt_name.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_name.Name = "txt_name";
-            this.txt_name.Size = new System.Drawing.Size(224, 27);
-            this.txt_name.TabIndex = 54;
+            txt_name.Enabled = false;
+            txt_name.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_name.ForeColor = Color.Black;
+            txt_name.Location = new Point(98, 58);
+            txt_name.Margin = new Padding(4, 4, 4, 4);
+            txt_name.Name = "txt_name";
+            txt_name.Size = new Size(196, 23);
+            txt_name.TabIndex = 54;
             // 
             // txt_address
             // 
-            this.txt_address.Enabled = false;
-            this.txt_address.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_address.ForeColor = System.Drawing.Color.Black;
-            this.txt_address.Location = new System.Drawing.Point(760, 132);
-            this.txt_address.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txt_address.Name = "txt_address";
-            this.txt_address.Size = new System.Drawing.Size(309, 66);
-            this.txt_address.TabIndex = 69;
-            this.txt_address.Text = "";
+            txt_address.Enabled = false;
+            txt_address.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_address.ForeColor = Color.Black;
+            txt_address.Location = new Point(665, 99);
+            txt_address.Margin = new Padding(2);
+            txt_address.Name = "txt_address";
+            txt_address.Size = new Size(271, 50);
+            txt_address.TabIndex = 69;
+            txt_address.Text = "";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(45, 79);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 20);
-            this.label4.TabIndex = 44;
-            this.label4.Text = "Name";
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = SystemColors.ActiveCaptionText;
+            label4.Location = new Point(39, 59);
+            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(45, 17);
+            label4.TabIndex = 44;
+            label4.Text = "Name";
             // 
             // txt_coefficients_salary
             // 
-            this.txt_coefficients_salary.Enabled = false;
-            this.txt_coefficients_salary.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_coefficients_salary.ForeColor = System.Drawing.Color.Black;
-            this.txt_coefficients_salary.Location = new System.Drawing.Point(826, 80);
-            this.txt_coefficients_salary.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_coefficients_salary.Name = "txt_coefficients_salary";
-            this.txt_coefficients_salary.Size = new System.Drawing.Size(243, 27);
-            this.txt_coefficients_salary.TabIndex = 66;
-            this.txt_coefficients_salary.KeyPress += new KeyPressEventHandler(this.txt_coefficients_salary_presskey);
+            txt_coefficients_salary.Enabled = false;
+            txt_coefficients_salary.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_coefficients_salary.ForeColor = Color.Black;
+            txt_coefficients_salary.Location = new Point(723, 60);
+            txt_coefficients_salary.Margin = new Padding(4, 4, 4, 4);
+            txt_coefficients_salary.Name = "txt_coefficients_salary";
+            txt_coefficients_salary.Size = new Size(213, 23);
+            txt_coefficients_salary.TabIndex = 66;
+            txt_coefficients_salary.KeyPress += txt_coefficients_salary_presskey;
             // 
             // txt_birth
             // 
-            this.txt_birth.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_birth.CustomFormat = "yyyy/MM/dd";
-            this.txt_birth.Enabled = false;
-            this.txt_birth.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_birth.Location = new System.Drawing.Point(112, 177);
-            this.txt_birth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txt_birth.Name = "txt_birth";
-            this.txt_birth.Size = new System.Drawing.Size(224, 27);
-            this.txt_birth.TabIndex = 68;
-            this.txt_birth.Value = new System.DateTime(2023, 5, 5, 23, 0, 25, 0);
+            txt_birth.CalendarFont = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_birth.CustomFormat = "yyyy/MM/dd";
+            txt_birth.Enabled = false;
+            txt_birth.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_birth.Location = new Point(98, 133);
+            txt_birth.Margin = new Padding(2);
+            txt_birth.Name = "txt_birth";
+            txt_birth.Size = new Size(196, 23);
+            txt_birth.TabIndex = 68;
+            txt_birth.Value = new DateTime(2023, 5, 5, 23, 0, 25, 0);
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(673, 81);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(148, 20);
-            this.label11.TabIndex = 65;
-            this.label11.Text = "Coefficients salary";
+            label11.AutoSize = true;
+            label11.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.ForeColor = SystemColors.ActiveCaptionText;
+            label11.Location = new Point(589, 61);
+            label11.Margin = new Padding(4, 0, 4, 0);
+            label11.Name = "label11";
+            label11.Size = new Size(123, 17);
+            label11.TabIndex = 65;
+            label11.Text = "Coefficients salary";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(45, 132);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 20);
-            this.label5.TabIndex = 45;
-            this.label5.Text = "Gender";
+            label5.AutoSize = true;
+            label5.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.ForeColor = SystemColors.ActiveCaptionText;
+            label5.Location = new Point(39, 99);
+            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(56, 17);
+            label5.TabIndex = 45;
+            label5.Text = "Gender";
             // 
             // cb_gender
             // 
-            this.cb_gender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cb_gender.Enabled = false;
-            this.cb_gender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cb_gender.ForeColor = System.Drawing.Color.Black;
-            this.cb_gender.FormattingEnabled = true;
-            this.cb_gender.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-            this.cb_gender.Location = new System.Drawing.Point(112, 129);
-            this.cb_gender.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.cb_gender.Name = "cb_gender";
-            this.cb_gender.Size = new System.Drawing.Size(224, 28);
-            this.cb_gender.TabIndex = 67;
+            cb_gender.DropDownStyle = ComboBoxStyle.DropDownList;
+            cb_gender.Enabled = false;
+            cb_gender.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            cb_gender.ForeColor = Color.Black;
+            cb_gender.FormattingEnabled = true;
+            cb_gender.Items.AddRange(new object[] { "Male", "Female" });
+            cb_gender.Location = new Point(98, 97);
+            cb_gender.Margin = new Padding(2);
+            cb_gender.Name = "cb_gender";
+            cb_gender.Size = new Size(196, 24);
+            cb_gender.TabIndex = 67;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(359, 177);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 20);
-            this.label3.TabIndex = 63;
-            this.label3.Text = "Shift";
+            label3.AutoSize = true;
+            label3.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = SystemColors.ActiveCaptionText;
+            label3.Location = new Point(314, 133);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(36, 17);
+            label3.TabIndex = 63;
+            label3.Text = "Shift";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(45, 178);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 20);
-            this.label6.TabIndex = 46;
-            this.label6.Text = "Birth";
+            label6.AutoSize = true;
+            label6.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = SystemColors.ActiveCaptionText;
+            label6.Location = new Point(39, 134);
+            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(37, 17);
+            label6.TabIndex = 46;
+            label6.Text = "Birth";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(673, 131);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(71, 20);
-            this.label10.TabIndex = 61;
-            this.label10.Text = "Address";
+            label10.AutoSize = true;
+            label10.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.ForeColor = SystemColors.ActiveCaptionText;
+            label10.Location = new Point(589, 98);
+            label10.Margin = new Padding(4, 0, 4, 0);
+            label10.Name = "label10";
+            label10.Size = new Size(60, 17);
+            label10.TabIndex = 61;
+            label10.Text = "Address";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(359, 80);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 20);
-            this.label7.TabIndex = 47;
-            this.label7.Text = "Phone";
+            label7.AutoSize = true;
+            label7.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.ForeColor = SystemColors.ActiveCaptionText;
+            label7.Location = new Point(314, 60);
+            label7.Margin = new Padding(4, 0, 4, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(49, 17);
+            label7.TabIndex = 47;
+            label7.Text = "Phone";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(359, 131);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 20);
-            this.label8.TabIndex = 48;
-            this.label8.Text = "Identity";
+            label8.AutoSize = true;
+            label8.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.ForeColor = SystemColors.ActiveCaptionText;
+            label8.Location = new Point(314, 98);
+            label8.Margin = new Padding(4, 0, 4, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(53, 17);
+            label8.TabIndex = 48;
+            label8.Text = "Identity";
             // 
             // txt_phone
             // 
-            this.txt_phone.Enabled = false;
-            this.txt_phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_phone.ForeColor = System.Drawing.Color.Black;
-            this.txt_phone.Location = new System.Drawing.Point(430, 79);
-            this.txt_phone.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_phone.Name = "txt_phone";
-            this.txt_phone.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txt_phone.Size = new System.Drawing.Size(234, 27);
-            this.txt_phone.TabIndex = 57;
-            this.txt_phone.KeyPress += new KeyPressEventHandler(this.txt_phone_presskey);
-            this.txt_phone.MaxLength = 10;
+            txt_phone.Enabled = false;
+            txt_phone.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_phone.ForeColor = Color.Black;
+            txt_phone.Location = new Point(376, 59);
+            txt_phone.Margin = new Padding(4, 4, 4, 4);
+            txt_phone.MaxLength = 10;
+            txt_phone.Name = "txt_phone";
+            txt_phone.ScrollBars = ScrollBars.Horizontal;
+            txt_phone.Size = new Size(205, 23);
+            txt_phone.TabIndex = 57;
+            txt_phone.KeyPress += txt_phone_presskey;
             // 
             // txt_identity
             // 
-            this.txt_identity.Enabled = false;
-            this.txt_identity.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_identity.ForeColor = System.Drawing.Color.Black;
-            this.txt_identity.Location = new System.Drawing.Point(430, 129);
-            this.txt_identity.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_identity.Name = "txt_identity";
-            this.txt_identity.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txt_identity.Size = new System.Drawing.Size(234, 27);
-            this.txt_identity.TabIndex = 58;
-            
+            txt_identity.Enabled = false;
+            txt_identity.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_identity.ForeColor = Color.Black;
+            txt_identity.Location = new Point(376, 97);
+            txt_identity.Margin = new Padding(4, 4, 4, 4);
+            txt_identity.Name = "txt_identity";
+            txt_identity.ScrollBars = ScrollBars.Horizontal;
+            txt_identity.Size = new Size(205, 23);
+            txt_identity.TabIndex = 58;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1478, 89);
-            this.panel1.TabIndex = 76;
+            panel1.BackColor = Color.SteelBlue;
+            panel1.Controls.Add(label1);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(4, 4, 4, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1293, 67);
+            panel1.TabIndex = 76;
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(583, 28);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 39);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Setting";
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.Window;
+            label1.Location = new Point(510, 21);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(106, 31);
+            label1.TabIndex = 2;
+            label1.Text = "Setting";
             // 
             // gb_account
             // 
-            this.gb_account.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gb_account.Controls.Add(this.show_password);
-            this.gb_account.Controls.Add(this.btn_save_account);
-            this.gb_account.Controls.Add(this.btn_edit_info);
-            this.gb_account.Controls.Add(this.label13);
-            this.gb_account.Controls.Add(this.cb_role);
-            this.gb_account.Controls.Add(this.txt_password);
-            this.gb_account.Controls.Add(this.label12);
-            this.gb_account.Controls.Add(this.txt_user_name);
-            this.gb_account.Controls.Add(this.label9);
-            this.gb_account.Controls.Add(this.txt_account_id);
-            this.gb_account.Controls.Add(this.label2);
-            this.gb_account.Location = new System.Drawing.Point(15, 325);
-            this.gb_account.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.gb_account.Name = "gb_account";
-            this.gb_account.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.gb_account.Size = new System.Drawing.Size(998, 469);
-            this.gb_account.TabIndex = 80;
-            this.gb_account.TabStop = false;
-            this.gb_account.Text = "Account";
+            gb_account.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            gb_account.Controls.Add(show_password);
+            gb_account.Controls.Add(btn_save_account);
+            gb_account.Controls.Add(btn_edit_info);
+            gb_account.Controls.Add(label13);
+            gb_account.Controls.Add(cb_role);
+            gb_account.Controls.Add(txt_password);
+            gb_account.Controls.Add(label12);
+            gb_account.Controls.Add(txt_user_name);
+            gb_account.Controls.Add(label9);
+            gb_account.Controls.Add(txt_account_id);
+            gb_account.Controls.Add(label2);
+            gb_account.Location = new Point(13, 244);
+            gb_account.Margin = new Padding(2);
+            gb_account.Name = "gb_account";
+            gb_account.Padding = new Padding(2);
+            gb_account.Size = new Size(873, 341);
+            gb_account.TabIndex = 80;
+            gb_account.TabStop = false;
+            gb_account.Text = "Account";
             // 
             // show_password
             // 
-            this.show_password.AutoSize = true;
-            this.show_password.Location = new System.Drawing.Point(152, 221);
-            this.show_password.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.show_password.Name = "show_password";
-            this.show_password.Size = new System.Drawing.Size(134, 24);
-            this.show_password.TabIndex = 74;
-            this.show_password.Text = "Show password";
-            this.show_password.UseVisualStyleBackColor = true;
-            this.show_password.CheckedChanged += new System.EventHandler(this.show_password_CheckedChanged);
+            show_password.AutoSize = true;
+            show_password.Location = new Point(133, 166);
+            show_password.Margin = new Padding(2);
+            show_password.Name = "show_password";
+            show_password.Size = new Size(108, 19);
+            show_password.TabIndex = 74;
+            show_password.Text = "Show password";
+            show_password.UseVisualStyleBackColor = true;
+            show_password.CheckedChanged += show_password_CheckedChanged;
             // 
             // btn_save_account
             // 
-            this.btn_save_account.BackColor = System.Drawing.Color.SteelBlue;
-            this.btn_save_account.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_save_account.Enabled = false;
-            this.btn_save_account.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_save_account.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_save_account.Location = new System.Drawing.Point(543, 270);
-            this.btn_save_account.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btn_save_account.Name = "btn_save_account";
-            this.btn_save_account.Size = new System.Drawing.Size(102, 43);
-            this.btn_save_account.TabIndex = 73;
-            this.btn_save_account.Text = "Save";
-            this.btn_save_account.UseVisualStyleBackColor = false;
-            this.btn_save_account.Click += new System.EventHandler(this.btn_save_account_Click);
+            btn_save_account.BackColor = Color.SteelBlue;
+            btn_save_account.Cursor = Cursors.Hand;
+            btn_save_account.Enabled = false;
+            btn_save_account.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_save_account.ForeColor = SystemColors.ButtonHighlight;
+            btn_save_account.Location = new Point(475, 202);
+            btn_save_account.Margin = new Padding(4, 4, 4, 4);
+            btn_save_account.Name = "btn_save_account";
+            btn_save_account.Size = new Size(89, 32);
+            btn_save_account.TabIndex = 73;
+            btn_save_account.Text = "Save";
+            btn_save_account.UseVisualStyleBackColor = false;
+            btn_save_account.Click += btn_save_account_Click;
             // 
             // btn_edit_info
             // 
-            this.btn_edit_info.BackColor = System.Drawing.Color.SteelBlue;
-            this.btn_edit_info.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_edit_info.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_edit_info.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_edit_info.Location = new System.Drawing.Point(434, 270);
-            this.btn_edit_info.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btn_edit_info.Name = "btn_edit_info";
-            this.btn_edit_info.Size = new System.Drawing.Size(102, 43);
-            this.btn_edit_info.TabIndex = 72;
-            this.btn_edit_info.Text = "Edit";
-            this.btn_edit_info.UseVisualStyleBackColor = false;
-            this.btn_edit_info.Click += new System.EventHandler(this.btn_edit_info_Click);
+            btn_edit_info.BackColor = Color.SteelBlue;
+            btn_edit_info.Cursor = Cursors.Hand;
+            btn_edit_info.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_edit_info.ForeColor = SystemColors.ButtonHighlight;
+            btn_edit_info.Location = new Point(380, 202);
+            btn_edit_info.Margin = new Padding(4, 4, 4, 4);
+            btn_edit_info.Name = "btn_edit_info";
+            btn_edit_info.Size = new Size(89, 32);
+            btn_edit_info.TabIndex = 72;
+            btn_edit_info.Text = "Edit";
+            btn_edit_info.UseVisualStyleBackColor = false;
+            btn_edit_info.Click += btn_edit_info_Click;
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label13.Location = new System.Drawing.Point(356, 191);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(48, 20);
-            this.label13.TabIndex = 68;
-            this.label13.Text = "Role:";
+            label13.AutoSize = true;
+            label13.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.ForeColor = SystemColors.ActiveCaptionText;
+            label13.Location = new Point(312, 143);
+            label13.Margin = new Padding(4, 0, 4, 0);
+            label13.Name = "label13";
+            label13.Size = new Size(41, 17);
+            label13.TabIndex = 68;
+            label13.Text = "Role:";
             // 
             // cb_role
             // 
-            this.cb_role.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cb_role.Enabled = false;
-            this.cb_role.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cb_role.ForeColor = System.Drawing.Color.Black;
-            this.cb_role.FormattingEnabled = true;
-            this.cb_role.Items.AddRange(new object[] {
-            "ADMIN",
-            "STAFF"});
-            this.cb_role.Location = new System.Drawing.Point(423, 188);
-            this.cb_role.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.cb_role.Name = "cb_role";
-            this.cb_role.Size = new System.Drawing.Size(224, 33);
-            this.cb_role.TabIndex = 69;
+            cb_role.DropDownStyle = ComboBoxStyle.DropDownList;
+            cb_role.Enabled = false;
+            cb_role.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            cb_role.ForeColor = Color.Black;
+            cb_role.FormattingEnabled = true;
+            cb_role.Items.AddRange(new object[] { "ADMIN", "STAFF" });
+            cb_role.Location = new Point(370, 141);
+            cb_role.Margin = new Padding(2);
+            cb_role.Name = "cb_role";
+            cb_role.Size = new Size(196, 28);
+            cb_role.TabIndex = 69;
             // 
             // txt_password
             // 
-            this.txt_password.Enabled = false;
-            this.txt_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_password.ForeColor = System.Drawing.Color.Black;
-            this.txt_password.Location = new System.Drawing.Point(152, 187);
-            this.txt_password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_password.Name = "txt_password";
-            this.txt_password.Size = new System.Drawing.Size(181, 30);
-            this.txt_password.TabIndex = 60;
-            this.txt_password.UseSystemPasswordChar = true;
+            txt_password.Enabled = false;
+            txt_password.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_password.ForeColor = Color.Black;
+            txt_password.Location = new Point(133, 140);
+            txt_password.Margin = new Padding(4, 4, 4, 4);
+            txt_password.Name = "txt_password";
+            txt_password.Size = new Size(159, 26);
+            txt_password.TabIndex = 60;
+            txt_password.UseSystemPasswordChar = true;
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(42, 191);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(88, 20);
-            this.label12.TabIndex = 59;
-            this.label12.Text = "Password:";
+            label12.AutoSize = true;
+            label12.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.ForeColor = SystemColors.ActiveCaptionText;
+            label12.Location = new Point(37, 143);
+            label12.Margin = new Padding(4, 0, 4, 0);
+            label12.Name = "label12";
+            label12.Size = new Size(73, 17);
+            label12.TabIndex = 59;
+            label12.Text = "Password:";
             // 
             // txt_user_name
             // 
-            this.txt_user_name.Enabled = false;
-            this.txt_user_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_user_name.ForeColor = System.Drawing.Color.Black;
-            this.txt_user_name.Location = new System.Drawing.Point(152, 140);
-            this.txt_user_name.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_user_name.Name = "txt_user_name";
-            this.txt_user_name.Size = new System.Drawing.Size(494, 30);
-            this.txt_user_name.TabIndex = 58;
+            txt_user_name.Enabled = false;
+            txt_user_name.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_user_name.ForeColor = Color.Black;
+            txt_user_name.Location = new Point(133, 105);
+            txt_user_name.Margin = new Padding(4, 4, 4, 4);
+            txt_user_name.Name = "txt_user_name";
+            txt_user_name.Size = new Size(433, 26);
+            txt_user_name.TabIndex = 58;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(42, 144);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(96, 20);
-            this.label9.TabIndex = 57;
-            this.label9.Text = "User name:";
+            label9.AutoSize = true;
+            label9.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.ForeColor = SystemColors.ActiveCaptionText;
+            label9.Location = new Point(37, 108);
+            label9.Margin = new Padding(4, 0, 4, 0);
+            label9.Name = "label9";
+            label9.Size = new Size(81, 17);
+            label9.TabIndex = 57;
+            label9.Text = "User name:";
             // 
             // txt_account_id
             // 
-            this.txt_account_id.Enabled = false;
-            this.txt_account_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_account_id.ForeColor = System.Drawing.Color.Black;
-            this.txt_account_id.Location = new System.Drawing.Point(89, 96);
-            this.txt_account_id.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_account_id.Name = "txt_account_id";
-            this.txt_account_id.Size = new System.Drawing.Size(557, 30);
-            this.txt_account_id.TabIndex = 56;
+            txt_account_id.Enabled = false;
+            txt_account_id.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_account_id.ForeColor = Color.Black;
+            txt_account_id.Location = new Point(78, 72);
+            txt_account_id.Margin = new Padding(4, 4, 4, 4);
+            txt_account_id.Name = "txt_account_id";
+            txt_account_id.Size = new Size(488, 26);
+            txt_account_id.TabIndex = 56;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(42, 98);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 20);
-            this.label2.TabIndex = 55;
-            this.label2.Text = "ID:";
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.ActiveCaptionText;
+            label2.Location = new Point(37, 74);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(25, 17);
+            label2.TabIndex = 55;
+            label2.Text = "ID:";
             // 
             // data_sales
             // 
-            this.data_sales.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.data_sales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.data_sales.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.customer,
-            this.car,
-            this.revenue,
-            this.status});
-            this.data_sales.Location = new System.Drawing.Point(740, 421);
-            this.data_sales.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.data_sales.Name = "data_sales";
-            this.data_sales.RowHeadersWidth = 82;
-            this.data_sales.RowTemplate.Height = 41;
-            this.data_sales.Size = new System.Drawing.Size(721, 373);
-            this.data_sales.TabIndex = 81;
+            data_sales.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            data_sales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            data_sales.Columns.AddRange(new DataGridViewColumn[] { customer, car, revenue, status });
+            data_sales.Location = new Point(4, 62);
+            data_sales.Margin = new Padding(2);
+            data_sales.Name = "data_sales";
+            data_sales.RowHeadersWidth = 82;
+            data_sales.RowTemplate.Height = 41;
+            data_sales.Size = new Size(625, 275);
+            data_sales.TabIndex = 81;
             // 
             // customer
             // 
-            this.customer.HeaderText = "Customer";
-            this.customer.MinimumWidth = 10;
-            this.customer.Name = "customer";
-            this.customer.Width = 200;
+            customer.HeaderText = "Customer";
+            customer.MinimumWidth = 10;
+            customer.Name = "customer";
+            customer.Width = 200;
             // 
             // car
             // 
-            this.car.HeaderText = "Car";
-            this.car.MinimumWidth = 10;
-            this.car.Name = "car";
-            this.car.Width = 200;
+            car.HeaderText = "Car";
+            car.MinimumWidth = 10;
+            car.Name = "car";
+            car.Width = 200;
             // 
             // revenue
             // 
-            this.revenue.HeaderText = "Revenue";
-            this.revenue.MinimumWidth = 10;
-            this.revenue.Name = "revenue";
-            this.revenue.Width = 200;
+            revenue.HeaderText = "Revenue";
+            revenue.MinimumWidth = 10;
+            revenue.Name = "revenue";
+            revenue.Width = 200;
             // 
             // status
             // 
-            this.status.HeaderText = "Status";
-            this.status.MinimumWidth = 10;
-            this.status.Name = "status";
-            this.status.Width = 200;
+            status.HeaderText = "Status";
+            status.MinimumWidth = 10;
+            status.Name = "status";
+            status.Width = 200;
             // 
             // gb_salary
             // 
-            this.gb_salary.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gb_salary.Controls.Add(this.label14);
-            this.gb_salary.Controls.Add(this.txt_salary);
-            this.gb_salary.Location = new System.Drawing.Point(740, 325);
-            this.gb_salary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.gb_salary.Name = "gb_salary";
-            this.gb_salary.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.gb_salary.Size = new System.Drawing.Size(721, 227);
-            this.gb_salary.TabIndex = 82;
-            this.gb_salary.TabStop = false;
-            this.gb_salary.Text = "Salary";
+            gb_salary.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            gb_salary.Controls.Add(label14);
+            gb_salary.Controls.Add(data_sales);
+            gb_salary.Controls.Add(txt_salary);
+            gb_salary.Location = new Point(648, 244);
+            gb_salary.Margin = new Padding(2);
+            gb_salary.Name = "gb_salary";
+            gb_salary.Padding = new Padding(2);
+            gb_salary.Size = new Size(634, 341);
+            gb_salary.TabIndex = 82;
+            gb_salary.TabStop = false;
+            gb_salary.Text = "Salary";
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(83, 44);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(61, 20);
-            this.label14.TabIndex = 58;
-            this.label14.Text = "Salary:";
+            label14.AutoSize = true;
+            label14.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.ForeColor = SystemColors.ActiveCaptionText;
+            label14.Location = new Point(73, 33);
+            label14.Margin = new Padding(4, 0, 4, 0);
+            label14.Name = "label14";
+            label14.Size = new Size(52, 17);
+            label14.TabIndex = 58;
+            label14.Text = "Salary:";
             // 
             // txt_salary
             // 
-            this.txt_salary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_salary.ForeColor = System.Drawing.Color.Black;
-            this.txt_salary.Location = new System.Drawing.Point(154, 40);
-            this.txt_salary.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_salary.Name = "txt_salary";
-            this.txt_salary.ReadOnly = true;
-            this.txt_salary.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txt_salary.Size = new System.Drawing.Size(320, 30);
-            this.txt_salary.TabIndex = 59;
+            txt_salary.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_salary.ForeColor = Color.Black;
+            txt_salary.Location = new Point(135, 30);
+            txt_salary.Margin = new Padding(4, 4, 4, 4);
+            txt_salary.Name = "txt_salary";
+            txt_salary.ReadOnly = true;
+            txt_salary.ScrollBars = ScrollBars.Horizontal;
+            txt_salary.Size = new Size(280, 26);
+            txt_salary.TabIndex = 59;
             // 
             // Setting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1478, 794);
-            this.Controls.Add(this.gb_salary);
-            this.Controls.Add(this.data_sales);
-            this.Controls.Add(this.gb_account);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.gb_user_info);
-            this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "Setting";
-            this.Text = "Setting";
-            this.groupBox2.ResumeLayout(false);
-            this.gb_user_info.ResumeLayout(false);
-            this.gb_user_info.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.gb_account.ResumeLayout(false);
-            this.gb_account.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.data_sales)).EndInit();
-            this.gb_salary.ResumeLayout(false);
-            this.gb_salary.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
+            BackColor = SystemColors.ButtonHighlight;
+            ClientSize = new Size(1293, 596);
+            Controls.Add(gb_salary);
+            Controls.Add(gb_account);
+            Controls.Add(groupBox2);
+            Controls.Add(gb_user_info);
+            Controls.Add(panel1);
+            Margin = new Padding(2);
+            Name = "Setting";
+            Text = "Setting";
+            groupBox2.ResumeLayout(false);
+            gb_user_info.ResumeLayout(false);
+            gb_user_info.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            gb_account.ResumeLayout(false);
+            gb_account.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)data_sales).EndInit();
+            gb_salary.ResumeLayout(false);
+            gb_salary.PerformLayout();
+            ResumeLayout(false);
         }
 
 
