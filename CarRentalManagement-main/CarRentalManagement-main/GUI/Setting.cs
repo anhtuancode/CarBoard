@@ -80,7 +80,7 @@ namespace GUI
             }
             else
             {
-                MessageBox.Show(res.getDescription());
+                
             }
         }
 
