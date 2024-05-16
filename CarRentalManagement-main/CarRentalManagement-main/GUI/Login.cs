@@ -28,7 +28,7 @@ namespace GUI
                 Main form = new Main(data[0], data[1], data[2]);
                 ClearForm();
                 this.Hide();
-                form.ShowDialog(this);
+                form.Show(this);
             }
             else
             {
@@ -51,6 +51,13 @@ namespace GUI
             {
                 txt_password.UseSystemPasswordChar = true;
             }
+        }
+
+        private void btnregister_Click(object sender, EventArgs e)
+        {
+            register form = new register();
+            this.Hide();
+            form.ShowDialog(this);
         }
     }
 }
