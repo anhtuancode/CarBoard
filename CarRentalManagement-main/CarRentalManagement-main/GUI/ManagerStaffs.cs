@@ -133,8 +133,15 @@ namespace GUI
             }
             this.curr_id = "";
         }
-        private void btn_back_Click(object sender,EventArgs e){
-            this.Close();
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string role = "";
+            string id = "";
+            string name = "";
+            Main form = new Main(role, id, name);
+            this.Hide();
+            form.ShowDialog(this);
         }
     }
 }

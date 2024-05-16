@@ -44,6 +44,7 @@
             this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn_export = new System.Windows.Forms.Button();
+            this.btn_back = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.data_contracts)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -52,6 +53,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.Controls.Add(this.btn_back);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -216,6 +218,21 @@
             this.btn_export.UseVisualStyleBackColor = false;
             this.btn_export.Click += new System.EventHandler(this.btn_export_Click);
             // 
+            // btn_back
+            // 
+            this.btn_back.BackColor = System.Drawing.Color.IndianRed;
+            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_back.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_back.ForeColor = System.Drawing.SystemColors.Window;
+            this.btn_back.Location = new System.Drawing.Point(1078, 14);
+            this.btn_back.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(138, 55);
+            this.btn_back.TabIndex = 86;
+            this.btn_back.Text = "Back";
+            this.btn_back.UseVisualStyleBackColor = false;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
+            // 
             // ManageContracts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -263,5 +280,6 @@
         private DataGridViewTextBoxColumn paymentMethod;
         private DataGridViewTextBoxColumn status;
         private Button btn_export;
+        private Button btn_back;
     }
 }

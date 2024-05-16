@@ -59,6 +59,7 @@
             this.txt_start_date = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_back = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btn_display_cars = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
@@ -78,7 +79,7 @@
             // 
             this.cars_list.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cars_list.Location = new System.Drawing.Point(15, 381);
-            this.cars_list.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cars_list.Margin = new System.Windows.Forms.Padding(2);
             this.cars_list.MultiSelect = false;
             this.cars_list.Name = "cars_list";
             this.cars_list.Size = new System.Drawing.Size(1271, 385);
@@ -92,7 +93,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.car_chosing.Location = new System.Drawing.Point(20, 33);
-            this.car_chosing.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.car_chosing.Margin = new System.Windows.Forms.Padding(2);
             this.car_chosing.Name = "car_chosing";
             this.car_chosing.Size = new System.Drawing.Size(204, 167);
             this.car_chosing.TabIndex = 72;
@@ -115,9 +116,9 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Location = new System.Drawing.Point(15, 81);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(726, 220);
             this.groupBox1.TabIndex = 73;
             this.groupBox1.TabStop = false;
@@ -147,7 +148,7 @@
             this.txt_birth.Checked = false;
             this.txt_birth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txt_birth.Location = new System.Drawing.Point(111, 84);
-            this.txt_birth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_birth.Margin = new System.Windows.Forms.Padding(2);
             this.txt_birth.Name = "txt_birth";
             this.txt_birth.Size = new System.Drawing.Size(221, 27);
             this.txt_birth.TabIndex = 2;
@@ -185,7 +186,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_address.Location = new System.Drawing.Point(450, 130);
-            this.txt_address.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_address.Margin = new System.Windows.Forms.Padding(2);
             this.txt_address.Name = "txt_address";
             this.txt_address.Size = new System.Drawing.Size(250, 69);
             this.txt_address.TabIndex = 7;
@@ -197,7 +198,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_phone.Location = new System.Drawing.Point(111, 173);
-            this.txt_phone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_phone.Margin = new System.Windows.Forms.Padding(2);
             this.txt_phone.Name = "txt_phone";
             this.txt_phone.Size = new System.Drawing.Size(221, 27);
             this.txt_phone.TabIndex = 4;
@@ -208,7 +209,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_identifier.Location = new System.Drawing.Point(450, 34);
-            this.txt_identifier.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_identifier.Margin = new System.Windows.Forms.Padding(2);
             this.txt_identifier.Name = "txt_identifier";
             this.txt_identifier.Size = new System.Drawing.Size(250, 27);
             this.txt_identifier.TabIndex = 5;
@@ -225,7 +226,7 @@
             "Male",
             "Female"});
             this.cb_gender.Location = new System.Drawing.Point(111, 129);
-            this.cb_gender.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_gender.Margin = new System.Windows.Forms.Padding(2);
             this.cb_gender.Name = "cb_gender";
             this.cb_gender.Size = new System.Drawing.Size(221, 28);
             this.cb_gender.TabIndex = 3;
@@ -331,9 +332,9 @@
             this.gb_rental_time.Controls.Add(this.label9);
             this.gb_rental_time.Controls.Add(this.txt_start_date);
             this.gb_rental_time.Location = new System.Drawing.Point(1012, 81);
-            this.gb_rental_time.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gb_rental_time.Margin = new System.Windows.Forms.Padding(2);
             this.gb_rental_time.Name = "gb_rental_time";
-            this.gb_rental_time.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gb_rental_time.Padding = new System.Windows.Forms.Padding(2);
             this.gb_rental_time.Size = new System.Drawing.Size(273, 288);
             this.gb_rental_time.TabIndex = 74;
             this.gb_rental_time.TabStop = false;
@@ -351,7 +352,7 @@
             "Banking",
             "Cast payment"});
             this.cb_payment_method.Location = new System.Drawing.Point(159, 186);
-            this.cb_payment_method.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_payment_method.Margin = new System.Windows.Forms.Padding(2);
             this.cb_payment_method.Name = "cb_payment_method";
             this.cb_payment_method.Size = new System.Drawing.Size(104, 28);
             this.cb_payment_method.TabIndex = 99;
@@ -380,7 +381,7 @@
             this.btn_create_contract.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_create_contract.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_create_contract.Location = new System.Drawing.Point(60, 227);
-            this.btn_create_contract.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_create_contract.Margin = new System.Windows.Forms.Padding(2);
             this.btn_create_contract.Name = "btn_create_contract";
             this.btn_create_contract.Size = new System.Drawing.Size(167, 47);
             this.btn_create_contract.TabIndex = 12;
@@ -410,7 +411,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_end_time.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.txt_end_time.Location = new System.Drawing.Point(100, 149);
-            this.txt_end_time.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_end_time.Margin = new System.Windows.Forms.Padding(2);
             this.txt_end_time.Name = "txt_end_time";
             this.txt_end_time.Size = new System.Drawing.Size(162, 27);
             this.txt_end_time.TabIndex = 11;
@@ -437,7 +438,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_end_date.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txt_end_date.Location = new System.Drawing.Point(100, 113);
-            this.txt_end_date.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_end_date.Margin = new System.Windows.Forms.Padding(2);
             this.txt_end_date.Name = "txt_end_date";
             this.txt_end_date.Size = new System.Drawing.Size(162, 27);
             this.txt_end_date.TabIndex = 10;
@@ -464,7 +465,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_start_time.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.txt_start_time.Location = new System.Drawing.Point(100, 78);
-            this.txt_start_time.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_start_time.Margin = new System.Windows.Forms.Padding(2);
             this.txt_start_time.Name = "txt_start_time";
             this.txt_start_time.Size = new System.Drawing.Size(162, 27);
             this.txt_start_time.TabIndex = 9;
@@ -491,7 +492,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_start_date.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txt_start_date.Location = new System.Drawing.Point(100, 42);
-            this.txt_start_date.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_start_date.Margin = new System.Windows.Forms.Padding(2);
             this.txt_start_date.Name = "txt_start_date";
             this.txt_start_date.Size = new System.Drawing.Size(162, 27);
             this.txt_start_date.TabIndex = 8;
@@ -511,12 +512,28 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.Controls.Add(this.btn_back);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1301, 74);
             this.panel1.TabIndex = 2;
+            // 
+            // btn_back
+            // 
+            this.btn_back.BackColor = System.Drawing.Color.IndianRed;
+            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_back.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_back.ForeColor = System.Drawing.SystemColors.Window;
+            this.btn_back.Location = new System.Drawing.Point(1137, 14);
+            this.btn_back.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(138, 55);
+            this.btn_back.TabIndex = 87;
+            this.btn_back.Text = "Back";
+            this.btn_back.UseVisualStyleBackColor = false;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // groupBox3
             // 
@@ -526,9 +543,9 @@
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.cb_car_type);
             this.groupBox3.Location = new System.Drawing.Point(15, 304);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(980, 64);
             this.groupBox3.TabIndex = 75;
             this.groupBox3.TabStop = false;
@@ -543,7 +560,7 @@
             this.btn_display_cars.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_display_cars.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_display_cars.Location = new System.Drawing.Point(830, 19);
-            this.btn_display_cars.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_display_cars.Margin = new System.Windows.Forms.Padding(2);
             this.btn_display_cars.Name = "btn_display_cars";
             this.btn_display_cars.Size = new System.Drawing.Size(102, 35);
             this.btn_display_cars.TabIndex = 91;
@@ -579,7 +596,7 @@
             "electricity",
             "hybrid"});
             this.cb_engine_type.Location = new System.Drawing.Point(558, 24);
-            this.cb_engine_type.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_engine_type.Margin = new System.Windows.Forms.Padding(2);
             this.cb_engine_type.Name = "cb_engine_type";
             this.cb_engine_type.Size = new System.Drawing.Size(237, 28);
             this.cb_engine_type.TabIndex = 89;
@@ -612,7 +629,7 @@
             "5 seats",
             "7 seats"});
             this.cb_car_type.Location = new System.Drawing.Point(168, 24);
-            this.cb_car_type.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_car_type.Margin = new System.Windows.Forms.Padding(2);
             this.cb_car_type.Name = "cb_car_type";
             this.cb_car_type.Size = new System.Drawing.Size(237, 28);
             this.cb_car_type.TabIndex = 87;
@@ -621,9 +638,9 @@
             // 
             this.gb_car.Controls.Add(this.car_chosing);
             this.gb_car.Location = new System.Drawing.Point(754, 81);
-            this.gb_car.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gb_car.Margin = new System.Windows.Forms.Padding(2);
             this.gb_car.Name = "gb_car";
-            this.gb_car.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gb_car.Padding = new System.Windows.Forms.Padding(2);
             this.gb_car.Size = new System.Drawing.Size(241, 219);
             this.gb_car.TabIndex = 76;
             this.gb_car.TabStop = false;
@@ -642,7 +659,7 @@
             this.Controls.Add(this.cars_list);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CreateContract";
             this.Text = "ManageContract";
             this.Load += new System.EventHandler(this.HandleContract_Load);
@@ -707,5 +724,6 @@
         private DateTimePicker txt_birth;
         private ComboBox cb_payment_method;
         private Label label15;
+        private Button btn_back;
     }
 }

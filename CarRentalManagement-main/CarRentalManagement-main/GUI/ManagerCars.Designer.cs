@@ -31,6 +31,7 @@ namespace GUI
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_back = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_name = new System.Windows.Forms.TextBox();
             this.lb_hour_rent = new System.Windows.Forms.Label();
@@ -82,6 +83,7 @@ namespace GUI
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.Controls.Add(this.btn_back);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -89,6 +91,21 @@ namespace GUI
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1424, 89);
             this.panel1.TabIndex = 1;
+            // 
+            // btn_back
+            // 
+            this.btn_back.BackColor = System.Drawing.Color.IndianRed;
+            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_back.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_back.ForeColor = System.Drawing.SystemColors.Window;
+            this.btn_back.Location = new System.Drawing.Point(1261, 14);
+            this.btn_back.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(138, 55);
+            this.btn_back.TabIndex = 87;
+            this.btn_back.Text = "Back";
+            this.btn_back.UseVisualStyleBackColor = false;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // label1
             // 
@@ -285,9 +302,9 @@ namespace GUI
             this.gb_data_form.Controls.Add(this.label5);
             this.gb_data_form.Controls.Add(this.label4);
             this.gb_data_form.Location = new System.Drawing.Point(17, 109);
-            this.gb_data_form.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gb_data_form.Margin = new System.Windows.Forms.Padding(2);
             this.gb_data_form.Name = "gb_data_form";
-            this.gb_data_form.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gb_data_form.Padding = new System.Windows.Forms.Padding(2);
             this.gb_data_form.Size = new System.Drawing.Size(1382, 264);
             this.gb_data_form.TabIndex = 54;
             this.gb_data_form.TabStop = false;
@@ -302,7 +319,7 @@ namespace GUI
             "5",
             "7"});
             this.cb_number_of_seats.Location = new System.Drawing.Point(484, 132);
-            this.cb_number_of_seats.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_number_of_seats.Margin = new System.Windows.Forms.Padding(2);
             this.cb_number_of_seats.Name = "cb_number_of_seats";
             this.cb_number_of_seats.Size = new System.Drawing.Size(196, 28);
             this.cb_number_of_seats.TabIndex = 72;
@@ -327,7 +344,7 @@ namespace GUI
             this.txt_id.Enabled = false;
             this.txt_id.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txt_id.Location = new System.Drawing.Point(783, 180);
-            this.txt_id.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_id.Margin = new System.Windows.Forms.Padding(2);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(242, 27);
             this.txt_id.TabIndex = 70;
@@ -351,7 +368,7 @@ namespace GUI
             // txt_km
             // 
             this.txt_km.Location = new System.Drawing.Point(154, 180);
-            this.txt_km.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_km.Margin = new System.Windows.Forms.Padding(2);
             this.txt_km.Name = "txt_km";
             this.txt_km.Size = new System.Drawing.Size(193, 27);
             this.txt_km.TabIndex = 68;
@@ -360,7 +377,7 @@ namespace GUI
             // 
             this.txt_car_price.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txt_car_price.Location = new System.Drawing.Point(486, 89);
-            this.txt_car_price.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_car_price.Margin = new System.Windows.Forms.Padding(2);
             this.txt_car_price.Name = "txt_car_price";
             this.txt_car_price.Size = new System.Drawing.Size(194, 27);
             this.txt_car_price.TabIndex = 67;
@@ -375,7 +392,7 @@ namespace GUI
             "electricity",
             "hybrid"});
             this.cb_engine.Location = new System.Drawing.Point(154, 131);
-            this.cb_engine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_engine.Margin = new System.Windows.Forms.Padding(2);
             this.cb_engine.Name = "cb_engine";
             this.cb_engine.Size = new System.Drawing.Size(192, 28);
             this.cb_engine.TabIndex = 66;
@@ -437,7 +454,7 @@ namespace GUI
             // txt_car_year
             // 
             this.txt_car_year.Location = new System.Drawing.Point(154, 86);
-            this.txt_car_year.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_car_year.Margin = new System.Windows.Forms.Padding(2);
             this.txt_car_year.Name = "txt_car_year";
             this.txt_car_year.Size = new System.Drawing.Size(193, 27);
             this.txt_car_year.TabIndex = 62;
@@ -458,7 +475,7 @@ namespace GUI
             // 
             this.txt_deposit_price.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txt_deposit_price.Location = new System.Drawing.Point(833, 132);
-            this.txt_deposit_price.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_deposit_price.Margin = new System.Windows.Forms.Padding(2);
             this.txt_deposit_price.Name = "txt_deposit_price";
             this.txt_deposit_price.Size = new System.Drawing.Size(192, 27);
             this.txt_deposit_price.TabIndex = 60;
@@ -493,7 +510,7 @@ namespace GUI
             this.numberOfSeats});
             this.data_cars.Cursor = System.Windows.Forms.Cursors.Hand;
             this.data_cars.Location = new System.Drawing.Point(17, 389);
-            this.data_cars.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.data_cars.Margin = new System.Windows.Forms.Padding(2);
             this.data_cars.MultiSelect = false;
             this.data_cars.Name = "data_cars";
             this.data_cars.RowHeadersWidth = 82;
@@ -654,5 +671,6 @@ namespace GUI
         private TextBox txt_id;
         private Button btn_export;
         private ComboBox cb_number_of_seats;
+        private Button btn_back;
     }
 }

@@ -124,5 +124,14 @@ namespace GUI
             document.Close();
         }
 
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            string role = "";
+            string id = "";
+            string name = "";
+            Main form = new Main(role, id, name);
+            this.Hide();
+            form.ShowDialog(this);
+        }
     }
 }

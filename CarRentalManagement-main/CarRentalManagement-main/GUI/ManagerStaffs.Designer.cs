@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_identity = new System.Windows.Forms.TextBox();
             this.txt_phone = new System.Windows.Forms.TextBox();
@@ -62,6 +63,7 @@
             this.btn_update = new System.Windows.Forms.Button();
             this.btn_add = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.data_staffs)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -71,6 +73,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -78,6 +81,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1304, 89);
             this.panel1.TabIndex = 3;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.SystemColors.Window;
+            this.button2.Location = new System.Drawing.Point(1150, 14);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(138, 55);
+            this.button2.TabIndex = 87;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -323,7 +341,7 @@
             "Male",
             "Female"});
             this.cb_gender.Location = new System.Drawing.Point(115, 98);
-            this.cb_gender.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_gender.Margin = new System.Windows.Forms.Padding(2);
             this.cb_gender.Name = "cb_gender";
             this.cb_gender.Size = new System.Drawing.Size(224, 33);
             this.cb_gender.TabIndex = 67;
@@ -333,7 +351,7 @@
             this.txt_birth.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_birth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_birth.Location = new System.Drawing.Point(115, 155);
-            this.txt_birth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_birth.Margin = new System.Windows.Forms.Padding(2);
             this.txt_birth.Name = "txt_birth";
             this.txt_birth.Size = new System.Drawing.Size(224, 30);
             this.txt_birth.TabIndex = 68;
@@ -343,7 +361,7 @@
             this.txt_address.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_address.ForeColor = System.Drawing.Color.Black;
             this.txt_address.Location = new System.Drawing.Point(758, 110);
-            this.txt_address.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_address.Margin = new System.Windows.Forms.Padding(2);
             this.txt_address.Name = "txt_address";
             this.txt_address.Size = new System.Drawing.Size(309, 78);
             this.txt_address.TabIndex = 69;
@@ -368,9 +386,9 @@
             this.groupBox1.Controls.Add(this.txt_phone);
             this.groupBox1.Controls.Add(this.txt_identity);
             this.groupBox1.Location = new System.Drawing.Point(17, 109);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(1110, 219);
             this.groupBox1.TabIndex = 70;
             this.groupBox1.TabStop = false;
@@ -386,7 +404,7 @@
             "Afternoon",
             "Night"});
             this.cb_shift.Location = new System.Drawing.Point(428, 159);
-            this.cb_shift.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_shift.Margin = new System.Windows.Forms.Padding(2);
             this.cb_shift.Name = "cb_shift";
             this.cb_shift.Size = new System.Drawing.Size(234, 33);
             this.cb_shift.TabIndex = 70;
@@ -403,7 +421,6 @@
             this.btn_back.TabIndex = 74;
             this.btn_back.Text = "Back";
             this.btn_back.UseVisualStyleBackColor = false;
-            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // btn_delete
             // 
@@ -456,13 +473,22 @@
             this.groupBox2.Controls.Add(this.btn_update);
             this.groupBox2.Controls.Add(this.btn_delete);
             this.groupBox2.Location = new System.Drawing.Point(1146, 109);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(140, 217);
             this.groupBox2.TabIndex = 75;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Control";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1310, 98);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 76;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // ManagerStaffs
             // 
@@ -470,6 +496,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1304, 664);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.data_staffs);
@@ -532,5 +559,7 @@
         private DataGridViewTextBoxColumn salary;
         private Button btn_update;
         private ComboBox cb_shift;
+        private Button button1;
+        private Button button2;
     }
 }
